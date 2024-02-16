@@ -1,0 +1,52 @@
+body {
+    background-color: #C0C0C0;
+  }
+  /*-----NAVBAR-----*/
+  .navbar {
+    background-color: #FF8C00;
+  }
+  nav {
+    height: 120px;
+  }
+  
+  .container {
+    margin-top: 25px;
+    background-color: FF8C00;
+  }
+  
+  .rakhi-sheth {
+    float: left;
+    font: 60px Impact;
+  }
+  
+  a {
+    float: right;
+    margin-right: 20px;
+  }
+  /*-----ABOUT-----*/
+  .heading {
+    font:40px Impact;
+    margin-left:200px;
+    padding-top:20px;
+    color:peach;
+    
+  }
+  .intro {
+    font: 20px Impact;
+    position:left;
+    width: 500px;
+  }
+  .Me {
+    float:right;
+    clear:both;
+    margin-top:-100px;
+  }
+  /*-----WHITE BACKGROUND-----*/
+  .template {
+    background-color: white;
+    width: 1200px;
+    height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 100px 20px 100px 20px;
+  }

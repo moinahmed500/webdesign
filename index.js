@@ -87,11 +87,23 @@
 //console.log(fullName)
 
 //function
-function sum(){
-    var num1 = +prompt ("Enter First Number")
-    var num2 = +prompt ("Enter Second Number")
-    console.log(num1 + num2)
+//function sum(){
+  //  var num1 = +prompt ("Enter First Number")
+    //var num2 = +prompt ("Enter Second Number")
+    //console.log(num1 + num2)
+//}
+//sum()
+//sum()
+//sum()
+
+
+//parameter
+/*function huza(num1, num2){
+    console.log(num1+ num2)
 }
-sum()
-sum()
-sum()
+huza(10,30)  //argument*/
+
+function myName(num1 , num2){
+    console.log(num1+ num2)
+}
+myName(10,30)  //argument

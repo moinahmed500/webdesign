@@ -103,7 +103,16 @@
 }
 huza(10,30)  //argument*/
 
-function myName(num1 , num2){
+/*function myName(num1 , num2){
     console.log(num1+ num2)
 }
-myName(10,30)  //argument
+myName(10,30)*/  //argument
+
+//conditions
+
+var userFavoriteDish = prompt("Enter Your Favorite Dish");
+if (userFavoriteDish === "biryani"){
+console.log('raita free')}
+else{
+    console.log ('please purchase it')
+}

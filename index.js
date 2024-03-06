@@ -110,9 +110,19 @@ myName(10,30)*/  //argument
 
 //conditions
 
-var userFavoriteDish = prompt("Enter Your Favorite Dish");
+/*var userFavoriteDish = prompt("Enter Your Favorite Dish");
 if (userFavoriteDish === 'biryani'){
 console.log('raita free')}
 else{
     console.log ('please purchase it')
+}*/
+//exampla condition
+var userAge = +prompt('Enter Your Age')
+if (userAge >20){
+    console.log ('not a teen ager')
+
+}
+else
+{
+    console.log('teenager')
 }

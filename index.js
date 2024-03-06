@@ -111,7 +111,7 @@ myName(10,30)*/  //argument
 //conditions
 
 var userFavoriteDish = prompt("Enter Your Favorite Dish");
-if (userFavoriteDish === "biryani"){
+if (userFavoriteDish === 'biryani'){
 console.log('raita free')}
 else{
     console.log ('please purchase it')

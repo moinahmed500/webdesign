@@ -116,6 +116,7 @@ console.log('raita free')}
 else{
     console.log ('please purchase it')
 }*/
+/*
 //exampla condition
 var userAge = +prompt('Enter Your Age')
 if (userAge >20){
@@ -125,5 +126,8 @@ if (userAge >20){
 else
 {
     console.log('teenager')
-    
-}
+
+}*/
+
+//conditions practice
+

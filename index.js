@@ -128,9 +128,9 @@ else
     console.log('teenager')
 
 }*/
-/*
+
 //conditions practice
-let greeTing =+prompt('Enter Time Here')
+/*let greeTing =+prompt('Enter Time Here')
 if (greeTing >6 ) {
     console.log('Good Morning')
     
@@ -161,4 +161,23 @@ if (greeTing >19){
 else{
     console.log('Incorrect Time')
 }*/
+//chat gpt code
+
+function greetUser() {
+    var currentTime = new Date();
+    var currentHour = currentTime.getHours();
+
+    if (currentHour < 12) {
+        return "Good morning!";
+    } else if (currentHour >= 12 && currentHour < 17) {
+        return "Good afternoon!";
+    } else if (currentHour >= 17 && currentHour < 20) {
+        return "Good evening!";
+    } else {
+        return "Good night!";
+    }
+}
+
+console.log(greetUser());
+
 

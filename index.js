@@ -141,7 +141,11 @@ if (greeTing >6 ) {
 }*/
 //condition greeting
 
-let greeTing = +prompt('Enter Current time Here')
+/*let greeTing = +prompt('Enter Current time Here')
+
+if (greeTing >24){
+    console.log('Enter Correct Time')
+}
 if (greeTing >6){
     console.log('Good Morning')
 }
@@ -154,9 +158,7 @@ if(greeTing >16){
 if (greeTing >19){
     console.log('Good Night')
 }
-if (greeTing >24){
-    console.log('Enter Correct Time')
-}
 else{
-    console.log('Enter')
-}
+    console.log('Incorrect Time')
+}*/
+

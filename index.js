@@ -125,4 +125,5 @@ if (userAge >20){
 else
 {
     console.log('teenager')
+    
 }

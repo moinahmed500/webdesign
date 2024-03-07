@@ -128,6 +128,35 @@ else
     console.log('teenager')
 
 }*/
-
+/*
 //conditions practice
+let greeTing =+prompt('Enter Time Here')
+if (greeTing >6 ) {
+    console.log('Good Morning')
+    
+}
+ else(greeTing)
+  { console.log('Good night')
+    
+}*/
+//condition greeting
 
+let greeTing = +prompt('Enter Current time Here')
+if (greeTing >6){
+    console.log('Good Morning')
+}
+if (greeTing >11){
+    console.log('Good Afternoon')
+}
+if(greeTing >16){
+    console.log('Good Evening')
+}
+if (greeTing >19){
+    console.log('Good Night')
+}
+if (greeTing >24){
+    console.log('Enter Correct Time')
+}
+else{
+    console.log('Enter')
+}

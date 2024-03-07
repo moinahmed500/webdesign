@@ -103,7 +103,51 @@
 }
 huza(10,30)  //argument*/
 
-function myName(num1 , num2){
+/*function myName(num1 , num2){
     console.log(num1+ num2)
 }
-myName(10,30)  //argument
+myName(10,30)  //argument*/
+
+//conditions
+
+/*var userFavoriteDish = prompt("Enter Your Favorite Dish");
+if (userFavoriteDish === 'biryani'){
+console.log('raita free')}
+else{
+    console.log ('please purchase it')
+}*/
+//exampla condition
+
+/*var userAge = +prompt('Enter Your Age')
+if (userAge >20){
+    console.log ('not a teen ager')
+
+}
+else
+{
+    console.log('teenager')
+}  */
+
+// if else example
+
+let greetingMassege = +prompt('Enter current Time Here')
+
+if(greetingMassege >6){
+    console.log('Good'+'Morning')
+}
+if(greetingMassege >11){
+    console.log('Good'+'Afternoon')
+    
+}
+if(greetingMassege >16){
+    console.log('Good'+'Evening')
+
+    }
+if(greetingMassege >19){
+        console.log('Good'+'Night')
+    }
+    
+
+ else if  (greetingMassege >24){
+    console.log('Please Enter Correct Time')
+}

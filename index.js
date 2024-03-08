@@ -106,7 +106,7 @@ huza(10,30)  //argument*/
 /*function myName(num1 , num2){
     console.log(num1+ num2)
 }
-myName(10,30)*/  //argument
+myName(10,30)  //argument
 
 //conditions
 
@@ -116,6 +116,7 @@ console.log('raita free')}
 else{
     console.log ('please purchase it')
 }*/
+/*
 //exampla condition
 /* 
 var userAge = +prompt('Enter Your Age')
@@ -126,6 +127,7 @@ if (userAge >20){
 else
 {
     console.log('teenager')
+<<<<<<< HEAD
 }
 */
 
@@ -144,3 +146,60 @@ console.log ('you can get eidi 1000/=')
 } else {
     console.log('your eidi 100/=')
 }
+=======
+
+}*/
+
+//conditions practice
+/*let greeTing =+prompt('Enter Time Here')
+if (greeTing >6 ) {
+    console.log('Good Morning')
+    
+}
+ else(greeTing)
+  { console.log('Good night')
+    
+}*/
+//condition greeting
+
+/*let greeTing = +prompt('Enter Current time Here')
+
+if (greeTing >24){
+    console.log('Enter Correct Time')
+}
+if (greeTing >6){
+    console.log('Good Morning')
+}
+if (greeTing >11){
+    console.log('Good Afternoon')
+}
+if(greeTing >16){
+    console.log('Good Evening')
+}
+if (greeTing >19){
+    console.log('Good Night')
+}
+else{
+    console.log('Incorrect Time')
+}*/
+//chat gpt code
+
+function greetUser() {
+    var currentTime = new Date();
+    var currentHour = currentTime.getHours();
+
+    if (currentHour < 12) {
+        return "Good morning!";
+    } else if (currentHour >= 12 && currentHour < 17) {
+        return "Good afternoon!";
+    } else if (currentHour >= 17 && currentHour < 20) {
+        return "Good evening!";
+    } else {
+        return "Good night!";
+    }
+}
+
+console.log(greetUser());
+
+
+>>>>>>> 1f37e98e2437f5ff5adfbe8a4d321086995c4fa4

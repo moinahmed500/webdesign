@@ -117,6 +117,7 @@ else{
     console.log ('please purchase it')
 }*/
 //exampla condition
+/* 
 var userAge = +prompt('Enter Your Age')
 if (userAge >20){
     console.log ('not a teen ager')
@@ -125,4 +126,21 @@ if (userAge >20){
 else
 {
     console.log('teenager')
+}
+*/
+
+//child admission
+
+/*var chidAge =+prompt('Enter A Child Age?')
+if (chidAge>=8) {
+    console.log('Your Child Is Over Age')
+} else {
+    console.log('You Can Get Admission')
+}
+*/
+var chidAge =+prompt('Enter A Child Age?')
+if (chidAge>=8) {
+console.log ('you can get eidi 1000/=')   
+} else {
+    console.log('your eidi 100/=')
 }
